@@ -1,0 +1,23 @@
+{
+  "name": "node-pug-ejs-project",
+  "version": "1.0.0",
+  "description": "Проєкт з Express, PUG та EJS шаблонами",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^2.0.22",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

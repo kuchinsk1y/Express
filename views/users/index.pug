@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Список користувачів
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Користувачі
+    ul
+      each user in users
+        li: a(href=`/users/${user.id}`) #{user.name} (#{user.age} років)
